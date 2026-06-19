@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nnyperity.github.io/m-web-aiyouxi-com-cn/sitemap.xml
