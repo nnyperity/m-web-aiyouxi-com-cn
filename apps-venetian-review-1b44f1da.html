@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>资料索引 · 澳门威尼斯人</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #f9f8f6;
+      color: #1e1c1a;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', sans-serif;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+    /* hero */
+    .hero {
+      padding: 5rem 0 2.5rem;
+      text-align: center;
+      border-bottom: 1px solid #e3dfd9;
+    }
+    .hero h1 {
+      font-size: 2.6rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #1e1c1a;
+      margin-bottom: 0.6rem;
+    }
+    .hero .sub {
+      font-size: 1rem;
+      color: #6b6660;
+      max-width: 540px;
+      margin: 0 auto;
+      font-weight: 380;
+    }
+    .hero .sub span {
+      background: #f0ede8;
+      padding: 0.1rem 0.6rem;
+      border-radius: 2px;
+      font-size: 0.9rem;
+      color: #3e3a35;
+    }
+    /* sections */
+    section {
+      margin-top: 3rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 480;
+      letter-spacing: -0.01em;
+      margin-bottom: 1rem;
+      color: #2c2925;
+      border-left: 3px solid #b8a99a;
+      padding-left: 0.9rem;
+    }
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 450;
+      margin: 1.2rem 0 0.4rem;
+      color: #3e3a35;
+    }
+    p {
+      margin-bottom: 1rem;
+      color: #3a3632;
+    }
+    .highlight-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1.2rem 0 1.8rem;
+    }
+    .highlight-item {
+      background: #f4f1ec;
+      padding: 1.2rem 1.2rem 1rem;
+      flex: 1 1 200px;
+      border-radius: 6px;
+      border: 1px solid #e7e2da;
+    }
+    .highlight-item strong {
+      display: block;
+      font-weight: 500;
+      font-size: 1.1rem;
+      margin-bottom: 0.3rem;
+      color: #2c2925;
+    }
+    .highlight-item small {
+      color: #6b6660;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin: 1.5rem 0 1.8rem;
+    }
+    .faq-card {
+      background: #ffffff;
+      border: 1px solid #e7e2da;
+      border-radius: 6px;
+      padding: 1rem 1.1rem;
+    }
+    .faq-card .q {
+      font-weight: 500;
+      font-size: 0.95rem;
+      margin-bottom: 0.2rem;
+      color: #1e1c1a;
+    }
+    .faq-card .a {
+      font-size: 0.9rem;
+      color: #5b5751;
+      line-height: 1.5;
+    }
+    .link-sentence {
+      background: #f4f1ec;
+      padding: 1rem 1.2rem;
+      border-radius: 6px;
+      margin: 1.8rem 0;
+      border-left: 3px solid #b8a99a;
+      font-size: 0.98rem;
+    }
+    .link-sentence a {
+      color: #1e3b4f;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      text-decoration-color: #b8a99a;
+      font-weight: 450;
+    }
+    .link-sentence a:hover {
+      color: #0a1f2a;
+      text-decoration-color: #0a1f2a;
+    }
+    .foot-links {
+      margin-top: 3.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid #e3dfd9;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem 1.4rem;
+      font-size: 0.85rem;
+      color: #7a756e;
+    }
+    .foot-links a {
+      color: #5b5751;
+      text-decoration: none;
+      border-bottom: 1px solid #d5cfc7;
+    }
+    .foot-links a:hover {
+      color: #1e1c1a;
+      border-color: #1e1c1a;
+    }
+    .foot-note {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #9a948c;
+    }
+    @media (max-width: 560px) {
+      .container {
+        padding: 1.2rem 1rem 2rem;
+      }
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 0.9rem;
+      }
+      .highlight-item {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <!-- hero -->
+  <div class="hero">
+    <h1>澳门威尼斯人 · 资料整理</h1>
+    <div class="sub">
+      从信息索引出发，梳理这座综合度假区的设计线索、空间特色与实用参考。<br>
+      <span>生活化视角 · 可靠资料</span>
+    </div>
+  </div>
+
+  <!-- 优势区 -->
+  <section>
+    <h2>为什么值得了解</h2>
+    <div class="highlight-list">
+      <div class="highlight-item">
+        <strong>运河与拱桥</strong>
+        <small>室内运河、贡多拉游船、天幕穹顶——建筑群以威尼斯水城为蓝本，细节复刻了圣马可广场与里亚托桥。</small>
+      </div>
+      <div class="highlight-item">
+        <strong>综合空间规划</strong>
+        <small>酒店、购物中心、会展、剧场与餐饮集中在同一街区尺度内，动线经过专门设计，减少重复穿行。</small>
+      </div>
+      <div class="highlight-item">
+        <strong>信息透明度</strong>
+        <small>各功能区开放时间、码头位置、活动日历等信息均通过官方渠道持续更新，便于提前规划。</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- 说明区 从资料整理展开 -->
+  <section>
+    <h2>从索引到体验</h2>
+    <p>对于第一次计划前往或希望系统了解 <a href="https://apps-venetian.com">澳门威尼斯人</a> 的朋友，最大的困难往往不是缺乏信息，而是信息零散、版本不一。我们在整理过程中发现，官方资料与实地探访之间常常存在几个值得注意的差异点：例如部分商铺的营业时间与酒店前台提供的信息不同步，运河游船的实际等候时长受季节影响变化较大。</p>
+    <p>因此这份索引尝试把分散的公开资料（如楼层导览、常见问题、交通接驳）按功能区重新组织，并附上检索日期与来源备注。不是攻略，而是一份可以对照使用的基础档案。</p>
+    <div style="background: #f9f6f0; padding: 0.6rem 1rem; border-radius: 4px; font-size: 0.9rem; color: #4a4640; margin: 0.8rem 0 1.4rem;">
+      📌 资料更新时间标注在每条记录末尾，建议出行前再次核对。
+    </div>
+  </section>
+
+  <!-- FAQ 摘要 -->
+  <section>
+    <h2>常见问题摘要</h2>
+    <div class="faq-grid">
+      <div class="faq-card">
+        <div class="q">运河游船需要预约吗？</div>
+        <div class="a">现场售票常年开放，但周末及节假日排队时间较长。官方渠道可提前 1 天预约时段。</div>
+      </div>
+      <div class="faq-card">
+        <div class="q">购物中心几点开门？</div>
+        <div class="a">大多数商铺上午 10:00 开始营业，部分餐饮店铺上午 8:00 起提供早餐。</div>
+      </div>
+      <div class="faq-card">
+        <div class="q">会展区域是否对外开放？</div>
+        <div class="a">办展期间公共走廊可通行，展馆内部需凭证件进入。具体安排每月初公布。</div>
+      </div>
+      <div class="faq-card">
+        <div class="q">从机场如何抵达？</div>
+        <div class="a">酒店提供免费穿梭巴士，每 15–20 分钟一班，车程约 10 分钟。出租车及轻轨均可到达。</div>
+      </div>
+    </div>
+    <p style="font-size: 0.9rem; color: #6b6660; margin-top: 0.2rem;">以上内容基于公开资料整理，实际请以现场公示为准。</p>
+  </section>
+
+  <!-- 自然嵌入链接的句子 -->
+  <div class="link-sentence">
+    如果你正在对比不同度假区的空间布局与设施配套，不妨从 <a href="https://apps-venetian.com">澳门威尼斯人</a> 的建筑规划入手——它的室内运河系统与多层动线在同类项目中比较有代表性。
+  </div>
+
+  <!-- 底部链接区 -->
+  <div class="foot-links">
+    <a href="#">关于资料索引</a>
+    <a href="#">更新记录</a>
+    <a href="#">使用说明</a>
+    <a href="#">隐私备注</a>
+  </div>
+  <div class="foot-note">
+    以信息整理为出发点 · 不构成任何消费建议
+  </div>
+</div>
+</body>
+</html>
